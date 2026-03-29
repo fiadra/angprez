@@ -58,6 +58,10 @@ programming
 
 Prolog - introduced logic programming, declarative instead of imperative
 
+Haskell - aimed to unify the functional programming world, it is a purely functional
+language that pushed advanced type systems further. It also adopted lazy evaluation,
+which was unusual for its time.
+
 SQL - language of query for relational databases, revolutionzed data management
 by using set-based operations.
 
@@ -77,6 +81,13 @@ Smalltalk - fully object oriented language, integrated with GUI
 Ada - named after Ada Lovelace and descended from Pascal, general purpose
 programming language sponsored by D.O.D. with a strong focus on safety and
 maintability on embedded and real-time systems.
+
+OCaml - it was designed to extend the ML family by combining functional
+programming with practical features for real-world use. It offers a strong
+static type system with powerful type inference, while also supporting an
+object-oriented style, making it both functional and object-oriented. This
+balance allows it to be expressive and efficient, suitable for both research
+and industrial applications.
 
 ## Scripting and productivity boom
 

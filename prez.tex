@@ -15,35 +15,38 @@ Chomiczewski, Filip Rabiega}
 \frame{\titlepage}
 
 \begin{frame}{What is a Programming Language?}
-\begin{columns}
+  \begin{columns}
     \column{0.5\textwidth}
-    A programming language is a structured way for humans to communicate instructions to a machine. Computers fundamentally operate on binary logic, which is unintuitive for humans.
+    A programming language is a structured way for humans to
+    communicate instructions to a machine. Computers fundamentally
+    operate on binary logic, which is unintuitive for humans.
 
     \column{0.5\textwidth}
     \vspace{0.3cm}
     They are essential because they:
     \begin{itemize}
-        \item Translate human intent into machine-executable steps
-        \item Manage complexity through abstraction
-        \item Enable scalable and maintainable systems
+      \item Translate human intent into machine-executable steps
+      \item Manage complexity through abstraction
+      \item Enable scalable and maintainable systems
     \end{itemize}
-\end{columns}
+  \end{columns}
 
-    \centering
-    \includegraphics[width=0.6\textwidth,keepaspectratio]{img/Computer-Program-Compilation-1-1-3821671490.jpg}
+  \centering
+  \includegraphics[width=0.6\textwidth,keepaspectratio]{img/Computer-Program-Compilation-1-1-3821671490.jpg}
 \end{frame}
 
 \begin{frame}{Early Concept of an Algorithm}
   \begin{columns}
     \column{0.6\textwidth}
-    Long before modern computers, the concept of an algorithm existed as a precise sequence of steps to solve a problem.
+    Long before modern computers, the concept of an algorithm existed
+    as a precise sequence of steps to solve a problem.
 
     \vspace{0.3cm}
     In the 19th century:
     \begin{itemize}
-        \item Charles Babbage designed the Analytical Engine
-        \item Ada Lovelace described symbolic computation
-        \item First algorithm intended for machine execution
+      \item Charles Babbage designed the Analytical Engine
+      \item Ada Lovelace described symbolic computation
+      \item First algorithm intended for machine execution
     \end{itemize}
 
     This marked the conceptual birth of programming.
@@ -57,34 +60,37 @@ Chomiczewski, Filip Rabiega}
 \begin{frame}{Assembly Language}
   \begin{columns}
     \column{0.5\textwidth}
-    Assembly language was the first step away from raw machine code, replacing binary with mnemonic instructions.
+    Assembly language was the first step away from raw machine code,
+    replacing binary with mnemonic instructions.
 
     \vspace{0.3cm}
 
     \column{0.5\textwidth}
     Key characteristics:
     \begin{itemize}
-        \item Very close to hardware
-        \item Nearly 1:1 with CPU instructions
-        \item Efficient but difficult to maintain
-        \item Architecture-dependent
+      \item Very close to hardware
+      \item Nearly 1:1 with CPU instructions
+      \item Efficient but difficult to maintain
+      \item Architecture-dependent
     \end{itemize}
   \end{columns}
   \centering
-    \includegraphics[width=0.6\textwidth,keepaspectratio]{img/asm.png}
+  \includegraphics[width=0.6\textwidth,keepaspectratio]{img/asm.png}
 \end{frame}
 
 \begin{frame}{Fortran}
   \begin{columns}
     \column{0.68\textwidth}
-    Fortran (FORmula TRANslator) was one of the first high-level programming languages, created for scientific computation. Developed by John Backus at IBM
+    Fortran (FORmula TRANslator) was one of the first high-level
+    programming languages, created for scientific computation.
+    Developed by John Backus at IBM
 
     \vspace{0.3cm}
     It introduced:
     \begin{itemize}
-        \item Mathematical expressions in code
-        \item Compiler abstraction
-        \item Efficient numerical processing
+      \item Mathematical expressions in code
+      \item Compiler abstraction
+      \item Efficient numerical processing
     \end{itemize}
 
     \column{0.28\textwidth}
@@ -92,7 +98,6 @@ Chomiczewski, Filip Rabiega}
     \includegraphics[width=0.9\textwidth]{img/fortran-for-physics-f90-meme-v0-87ltrusg94cd1.png}
   \end{columns}
 \end{frame}
-
 
 \begin{frame}{COBOL}
   \begin{columns}
@@ -102,9 +107,9 @@ Chomiczewski, Filip Rabiega}
     \vspace{0.3cm}
     Its main ideas:
     \begin{itemize}
-        \item English-like syntax
-        \item Focus on data processing
-        \item Widely used in finance and government
+      \item English-like syntax
+      \item Focus on data processing
+      \item Widely used in finance and government
     \end{itemize}
 
     \column{0.28\textwidth}
@@ -122,34 +127,53 @@ Chomiczewski, Filip Rabiega}
     \vspace{0.3cm}
     It enabled:
     \begin{itemize}
-        \item Direct memory manipulation
-        \item Portable system programming
-        \item Efficient development
+      \item Direct memory manipulation
+      \item Portable system programming
+      \item Efficient development
     \end{itemize}
   \end{columns}
   \vspace{0.3cm}
   \centering
-    \includegraphics[width=0.6\textwidth, keepaspectratio]{img/c.jpg}
+  \includegraphics[width=0.6\textwidth, keepaspectratio]{img/c.jpg}
+\end{frame}
+
+\begin{frame}{Functional programming}
+  \begin{columns}
+    \column{0.55\textwidth}
+    Functional programming is a paradigm where computation is treated as the
+    evaluation of mathematical functions. It avoids changing state and mutable
+    data, emphasizing immutability. Functions are first-class citizens and can
+    be passed, returned, and composed. It encourages pure functions, which
+    produce the same output for the same input without side effects.
+
+    \column{0.4\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{img/lambda_hl.png}
+    \par\vspace{0.2cm}
+    \footnotesize{A Half-Life reference}
+  \end{columns}
 \end{frame}
 
 \begin{frame}{LISP}
   \begin{columns}
     \column{0.5\textwidth}
-    The LISP family of programming languages is one of the oldest high-level language families, created in the late 1950s.
+    The LISP family of functional programming languages is one of the oldest
+    high-level language families, created in the late 1950s.
     Notable dialects include Scheme, Common Lisp, and Clojure.
+
     \column{0.5\textwidth}
     \vspace{0.3cm}
     Key characteristics:
     \begin{itemize}
-        \item Based on symbolic computation and list processing
-        \item Uses a simple and uniform syntax (prefix notation)
-        \item Code and data share the same structure (homoiconicity)
-        \item Widely used in artificial intelligence research
+      \item Based on symbolic computation and list processing
+      \item Uses a simple and uniform syntax (prefix notation)
+      \item Code and data share the same structure (homoiconicity)
+      \item Widely used in artificial intelligence research
     \end{itemize}
   \end{columns}
   \vspace{0.3cm}
   \centering
-    \includegraphics[width=0.5\textwidth,keepaspectratio]{img/lisp.png}
+  \includegraphics[width=0.5\textwidth,keepaspectratio]{img/lisp.png}
 \end{frame}
 
 \begin{frame}{Structure and logic}
@@ -170,19 +194,36 @@ Chomiczewski, Filip Rabiega}
   \end{columns}
 \end{frame}
 
+\begin{frame}{SQL}
+  \begin{columns}
+    \column{0.5\textwidth}
+    Although not strictly a programming language, SQL has been wildy successful
+    in the world of relational database administration and querying. It is
+    based on the theory of relational calculus and algebra. These foundations
+    allow SQL to express complex data operations in a declarative way, focusing
+    on what to retrieve rather than how to compute it.
+
+    \column{0.4\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{img/sql.jpg}
+    \par\vspace{0.2cm}
+    \footnotesize{ALL CAPS}
+  \end{columns}
+\end{frame}
+
 \begin{frame}{Haskell}
   \begin{columns}
-    \column{0.55\textwidth}
-    It was designed to unify the functional programming community, offering a
-    purely functional approach while advancing sophisticated type systems. It
-    also introduced lazy evaluation, a feature that was quite unusual at the
-    time.
-
     \column{0.4\textwidth}
     \centering
     \includegraphics[width=\textwidth]{img/haskell.jpg}
     \par\vspace{0.2cm}
     \footnotesize{The joys of purely functional programming}
+
+    \column{0.55\textwidth}
+    It was designed to unify the functional programming community, offering a
+    purely functional approach while advancing sophisticated type systems. It
+    also introduced lazy evaluation, a feature that was quite unusual at the
+    time.
   \end{columns}
 \end{frame}
 
@@ -275,21 +316,24 @@ Chomiczewski, Filip Rabiega}
 
 \begin{frame}{Main sources}
   \begin{itemize}
-        \item Scriptol. \textit{History and Evolution of Programming Languages}. \\
-        \href{https://www.scriptol.com/programming/history.php}{\texttt{scriptol.com/programming/history.php}}
+    \item Scriptol. \textit{History and Evolution of Programming Languages}. \\
+      \href{https://www.scriptol.com/programming/history.php}{\texttt{scriptol.com/programming/history.php}}
 
-        \item Praxent. \textit{A History of Programming Languages: From Plankalkül to Swift}. \\
-        \href{https://praxent.com/blog/history-of-programming-languages}{\texttt{praxent.com/blog/history-of-programming-languages}}
+    \item Praxent. \textit{A History of Programming Languages: From
+      Plankalkül to Swift}. \\
+      \href{https://praxent.com/blog/history-of-programming-languages}{\texttt{praxent.com/blog/history-of-programming-languages}}
 
-        \item van Dam, A. (Brown University). \textit{History of Programming Languages Reference}. \\
-        \href{https://cs.brown.edu/people/adf/programming_languages.html}{\texttt{cs.brown.edu/people/adf/programming\_languages.html}}
+    \item van Dam, A. (Brown University). \textit{History of
+      Programming Languages Reference}. \\
+      \href{https://cs.brown.edu/people/adf/programming_languages.html}{\texttt{cs.brown.edu/people/adf/programming\_languages.html}}
 
-        \item Wikipedia. \textit{History of Programming Languages}. \\
-        \href{https://en.wikipedia.org/wiki/History_of_programming_languages}{\texttt{en.wikipedia.org/wiki/History\_of\_programming\_languages}}
+    \item Wikipedia. \textit{History of Programming Languages}. \\
+      \href{https://en.wikipedia.org/wiki/History_of_programming_languages}{\texttt{en.wikipedia.org/wiki/History\_of\_programming\_languages}}
 
-        \item IEEE Computer Society. \textit{The Evolution of Programming Languages Timeline}. \\
-        \href{https://www.computer.org/publications/tech-news/insider-membership-news/timeline-of-programming-languages}{\texttt{computer.org/publications/tech-news/...}}
-    \end{itemize}
+    \item IEEE Computer Society. \textit{The Evolution of Programming
+      Languages Timeline}. \\
+      \href{https://www.computer.org/publications/tech-news/insider-membership-news/timeline-of-programming-languages}{\texttt{computer.org/publications/tech-news/...}}
+  \end{itemize}
 \end{frame}
 
 \end{document}
